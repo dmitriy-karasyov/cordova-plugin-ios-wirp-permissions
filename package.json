@@ -1,5 +1,37 @@
 {
   "name": "cordova-plugin-ios-wirp-permissions",
-  "description": "Cordova plugin ios permissions",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "description": "Cordova / PhoneGap Plugin Wirp Permission Settings Info.plist file",
+  "cordova": {
+    "id": "cordova-plugin-ios-wirp-permissions",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitriy-karasyov/cordova-plugin-ios-wirp-permissions.git"
+  },
+  "keywords": [
+    "cordova",
+    "ios",
+    "app",
+    "security",
+    "permissions",
+    "wirp",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Dmitriy Karasyov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmitriy-karasyov/cordova-plugin-ios-wirp-permissions/issues"
+  },
+  "homepage": "https://github.com/dmitriy-karasyov/cordova-plugin-ios-wirp-permissions#readme"
 }
