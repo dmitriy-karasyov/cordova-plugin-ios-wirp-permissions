@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-plugin-ios-wirp-permissions" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>iOS Wirp Permissions</name>
+    <author>Dmitriy Karasyov</author>
+    <description>Cordova / PhoneGap Plugin Wirp Permission Settings Info.plist file</description>
+    <keywords>cordova, ios, app, security, permissions, wirp</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <platform name="ios">
+        <preference name="LOCATION_WHEN_IN_USAGE_DESCRIPTION" default="Приложению необходим доступ к Вашему расположению"/>
+        <preference name="CAMERA_USAGE_DESCRIPTION" default="Приложению необходим доступ к Вашей камере"/>
+        <preference name="MICROPHONE_USAGE_DESCRIPTION" default="Приложению необходим доступ к Вашему микрофону"/>
+        <preference name="PHOTOLIBRARY_USAGE_DESCRIPTION" default="Приложению необходим доступ к Вашей галерее"/>
+        <config-file file="*-Info.plist" mode="merge" parent="NSLocationWhenInUseUsageDescription">
+            <string>Приложению необходим доступ к Вашей геолокации</string>
+        </config-file>
+        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+            <string>Приложению необходим доступ к Вашей камере</string>
+        </config-file>
+        <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
+            <string>Приложению необходим доступ к Вашему микрофону</string>
+        </config-file>
+        <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+            <string>Приложению необходим доступ к Вашей галерее</string>
+        </config-file>
+    </platform>
+</plugin>
