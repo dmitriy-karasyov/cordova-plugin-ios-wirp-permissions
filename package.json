@@ -1,7 +1,8 @@
 {
   "name": "cordova-plugin-ios-wirp-permissions",
   "version": "1.0.0",
-  "description": "Cordova / PhoneGap Plugin Wirp Permission Settings Info.plist file",
+  "author": "Dmitriy Karasyov",
+  "description": "Cordova / PhoneGap Plugin Permission Settings for NSMicrophoneUsageDescription in iOS 10 by adding a declaration to the Info.plist file",
   "cordova": {
     "id": "cordova-plugin-ios-wirp-permissions",
     "platforms": [
@@ -10,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dmitriy-karasyov/cordova-plugin-ios-wirp-permissions.git"
+    "url": "git+https://github.com/dmitriy-karasyov/cordova-plugin-ios-wirp-permissions"
   },
   "keywords": [
     "cordova",
@@ -18,20 +19,18 @@
     "app",
     "security",
     "permissions",
-    "wirp",
+    "nsmicrophoneusagedescription",
     "ecosystem:cordova",
     "cordova-ios"
   ],
-  "engines": [
+  "engines":
     {
       "name": "cordova",
       "version": ">=3.0.0"
-    }
-  ],
-  "author": "Dmitriy Karasyov",
+    },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dmitriy-karasyov/cordova-plugin-ios-wirp-permissions/issues"
   },
-  "homepage": "https://github.com/dmitriy-karasyov/cordova-plugin-ios-wirp-permissions#readme"
+  "homepage": "https://github.com/dmitriy-karasyov/cordova-plugin-ios-wirp-permissions/#readme"
 }
